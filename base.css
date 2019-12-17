@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: url('fonts/Montserrat-SemiBold.otf'); 
+}
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('fonts/Montserrat-Regular.otf'); 
+}
+
+body
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1
+{
+    text-align: center;
+    color: red;
+    font-family: 'Montserrat-SemiBold';
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat-Regular';
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#test
+{
+    background-color: rgb(70, 70, 70);
+    overflow: hidden;
+    padding: 14px;
+    display: block;
+}
+
+#gal
+{
+    font-family: 'Montserrat-SemiBold';
+    float: right;
+    font-size: 200%;
+    text-align: center;
+    vertical-align: middle;
+    color: red;
+    line-height: 100px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+#image
+{
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
