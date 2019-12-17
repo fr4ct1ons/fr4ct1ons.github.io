@@ -1,11 +1,23 @@
 @font-face {
-	font-family: 'Montserrat-SemiBold';
-	src: url('fonts/Montserrat-SemiBold.otf'); 
+    font-family: 'Montserrat-SemiBold';
+    src: url('fonts/Montserrat-SemiBold.otf'); 
 }
 
 @font-face {
-	font-family: 'Montserrat-Regular';
-	src: url('fonts/Montserrat-Regular.otf'); 
+    font-family: 'Montserrat-SemiBold';
+    src: url('fonts/Montserrat-SemiBoldItalic.otf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.otf'); 
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Italic.otf');
+    font-style: italic;
 }
 
 body
@@ -20,7 +32,15 @@ h1
 {
     text-align: center;
     color: red;
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-Regular';
+}
+
+h2
+{
+    text-align: center;
+    color: rgb(195, 195, 195);
+    font-family: 'Montserrat-Regular';
+    font-size: 24px
 }
 
 p
@@ -37,20 +57,39 @@ p
     margin-right: auto;
 }
 
-#test
+#myNav
 {
     background-color: rgb(70, 70, 70);
     overflow: hidden;
     padding: 14px;
     display: block;
+    margin-bottom: 25px;
 }
 
-#gal
+#active
 {
     font-family: 'Montserrat-SemiBold';
     float: right;
     font-size: 200%;
     color: red;
+    text-decoration: none;
+}
+
+#navGal
+{
+    font-family: 'Montserrat-Regular';
+    float: right;
+    font-size: 200%;
+    color: rgb(255, 0, 255);
+    text-decoration: none;
+}
+
+#navPage
+{
+    font-family: 'Montserrat-Regular';
+    float: right;
+    font-size: 200%;
+    color: rgb(255, 255, 0);
     text-decoration: none;
 }
 
