@@ -66,30 +66,30 @@ p
     margin-bottom: 25px;
 }
 
-#active
+.active
 {
     font-family: 'Montserrat-SemiBold';
     float: right;
     font-size: 200%;
-    color: red;
+    color: red !important; 
     text-decoration: none;
 }
 
-#navGal
+.navGal
 {
     font-family: 'Montserrat-Regular';
     float: right;
     font-size: 200%;
-    color: rgb(255, 0, 255);
+    color: rgb(255, 0, 255) !important;
     text-decoration: none;
 }
 
-#navPage
+.navPage
 {
     font-family: 'Montserrat-Regular';
     float: right;
     font-size: 200%;
-    color: rgb(255, 255, 0);
+    color: rgb(255, 255, 0) !important;
     text-decoration: none;
 }
 
@@ -98,4 +98,8 @@ p
     margin: auto;
     text-align: center;
     vertical-align: middle;
+}
+
+iframe[seamless] {
+    border: none;
 }
