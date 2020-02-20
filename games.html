@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="base.css">
 </head>
 
-<body onload="changeImageSizes();">
+<body onload="changeImageSizes(); changeGalleryPages()">
     <nav class="navbar navbar-dark sticky-top navbar-expand-md" id="myNav">
         <a class="navbar-brand" href="index.html"><img src="Logo final.svg" alt="Logo" style="width:100%"></a>
 
@@ -38,9 +38,35 @@
 
     <h1>GAMES</h1>
     <h2><i>A list of games I have made</i></h2>
-    <img src="white-kitten.jpg" alt="A cute white kitten." class="center" width="50%">
+    <!--img src="white-kitten.jpg" alt="A cute white kitten." class="center mobile100"-->
+
+    <div style="text-align: center;">
+
+        <a href="index.html">
+            <div class="galleryPage">
+                <img src="white-kitten.jpg" alt="gato" style="width: 100%">
+                <p class="pageTitle">Game1Game1Game1Game1Game1Game1Game1Game1</p>
+            </div>
+        </a>
+
+        <a href="index.html">
+        <div class="galleryPage">
+            <img src="white-kitten.jpg" alt="gato" style="width: 100%">
+            <p class="pageTitle">Jogão2</p>
+        </div>
+        </a>
+
+        <a href="index.html">
+        <div class="galleryPage">
+            <img src="white-kitten.jpg" alt="gato" style="width: 100%">
+            <p class="pageTitle">Jogão3</p>
+        </div>
+        </a>
+
+    </div>
 
     <script src="changeImageSize.js"></script>
+    <script src="changeGalleryPageSize.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

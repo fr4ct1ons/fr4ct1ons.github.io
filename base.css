@@ -26,6 +26,13 @@ body
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
+}
+
+html
+{
+    width: 100%;
+    height: 100%;
 }
 
 h1
@@ -100,6 +107,24 @@ p
     vertical-align: middle;
 }
 
-iframe[seamless] {
-    border: none;
+.pageTitle
+{
+    margin-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 200%;
+    display: block;
+    text-align: center;
+}
+
+.galleryPage
+{
+    background: rgb(50, 50, 50);
+    width: 25%;
+    display: inline-block;
+    word-wrap: break-word;
+    margin-bottom: 5%;
+    margin-left: 0.33%;
+    margin-right: 0.33%;
+    
 }
