@@ -73,30 +73,30 @@ p
     margin-bottom: 25px;
 }
 
-.active
+#active
 {
     font-family: 'Montserrat-SemiBold';
     float: right;
     font-size: 200%;
-    color: red !important; 
+    color: red; 
     text-decoration: none;
 }
 
-.navGal
+#navGal
 {
     font-family: 'Montserrat-Regular';
     float: right;
     font-size: 200%;
-    color: rgb(255, 0, 255) !important;
+    color: rgb(255, 0, 255);
     text-decoration: none;
 }
 
-.navPage
+#navPage
 {
     font-family: 'Montserrat-Regular';
     float: right;
     font-size: 200%;
-    color: rgb(255, 255, 0) !important;
+    color: rgb(255, 255, 0);
     text-decoration: none;
 }
 
@@ -112,18 +112,19 @@ p
     margin-top: 2%;
     padding-left: 3%;
     padding-right: 3%;
-    font-size: 200%;
+    font-size: 175%;
     display: block;
     text-align: center;
 }
 
 .galleryPage
 {
+    text-align: center;
     background: rgb(50, 50, 50);
     width: 25%;
     display: inline-block;
     word-wrap: break-word;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-left: 0.33%;
     margin-right: 0.33%;
     
