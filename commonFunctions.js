@@ -49,3 +49,14 @@ function changeImageSizes()
         }
     }
 }
+
+function setupNavbar()
+{
+    var navbarSize = document.getElementsByClassName("navbar")[0].clientHeight;
+
+    document.getElementById("navbarSpace").setAttribute("style", "margin-bottom: " + navbarSize.toString() + "px; ");
+
+    console.log(document.getElementById("navbarSpace").style.marginBottom);
+
+    //alert(document.getElementById("navbarSpace"));
+}

@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="base.css">
 </head>
 
-<body onload="changeImageSizes();">
-    
-    <nav class="navbar navbar-dark sticky-top navbar-expand-md" id="myNav">
+<body onload="changeImageSizes(); setupNavbar()">
+
+    <p id="navbarSpace" style="">.</p>
+
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md" id="myNav">
         <a class="navbar-brand" href="#"><img src="Logo final.svg" alt="Logo" style="width:100%"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

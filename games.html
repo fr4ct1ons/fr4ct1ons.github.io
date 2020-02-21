@@ -7,11 +7,15 @@
     <title>FR4CT1ONS' PORTFOLIO</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap override.css">
     <link rel="stylesheet" href="base.css">
 </head>
 
-<body onload="changeImageSizes(); changeGalleryPages()">
-    <nav class="navbar navbar-dark sticky-top navbar-expand-md" id="myNav">
+<body onload="changeImageSizes(); changeGalleryPages(); setupNavbar()">
+
+    <p id="navbarSpace" style="">.</p>
+
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md" id="myNav">
         <a class="navbar-brand" href="index.html"><img src="Logo final.svg" alt="Logo" style="width:100%"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
