@@ -10,6 +10,17 @@
 }
 
 @font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('fonts/Montserrat-MediumItalic.otf');
+    font-style: italic;
+}
+
+@font-face {
     font-family: 'Montserrat-Regular';
     src: url('fonts/Montserrat-Regular.otf'); 
 }
@@ -17,6 +28,17 @@
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url('fonts/Montserrat-Italic.otf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('fonts/Montserrat-Light.otf'); 
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-LightItalic.otf');
     font-style: italic;
 }
 
@@ -39,15 +61,17 @@ h1
 {
     text-align: center;
     color: red;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Medium';
+    font-size: 300%;
 }
 
 h2
 {
     text-align: center;
     color: rgb(195, 195, 195);
-    font-family: 'Montserrat-Regular';
-    font-size: 24px
+    font-family: 'Montserrat-Light';
+    font-size: 24px;
+    margin-bottom: 50px;
 }
 
 p
@@ -55,6 +79,12 @@ p
     text-align: center;
     color: white;
     font-family: 'Montserrat-Regular';
+    font-size: 120%;
+}
+
+a
+{
+    color: aqua;
 }
 
 .center
@@ -128,4 +158,9 @@ p
     margin-left: 0.33%;
     margin-right: 0.33%;
     
+}
+
+.endingWS
+{
+    margin-bottom: 10%;
 }
