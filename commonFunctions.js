@@ -50,6 +50,21 @@ function changeImageSizes()
     }
 }
 
+function changeTextDivs()
+{
+
+    var x = document.getElementsByClassName("mobileText");
+
+    if(isMobileDevice())
+    {
+        var i;
+        for (i = 0; i < x.length; i++) 
+        {
+            x[i].style="width:95%"
+        }
+    }
+}
+
 function setupNavbar()
 {
     var navbarSize = document.getElementsByClassName("navbar")[0].clientHeight;
