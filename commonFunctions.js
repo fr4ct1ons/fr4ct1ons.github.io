@@ -34,7 +34,7 @@ function changeImageSizes()
         var i;
         for (i = 0; i < x.length; i++) 
         {
-            x[i].style="width:95%"
+            x[i].style.width = "95%";
         }
     }
     else
@@ -44,7 +44,7 @@ function changeImageSizes()
         {
             if(!(x[i].clientWidth < screen.width))
             {
-                x[i].style="width:100%"
+                x[i].style.width = "100%";
             }
         }
     }
@@ -60,9 +60,10 @@ function changeTextDivs()
         var i;
         for (i = 0; i < x.length; i++) 
         {
-            x[i].style="width:95%"
+            x[i].style.width = "95%";
         }
     }
+
 }
 
 function setupNavbar()
