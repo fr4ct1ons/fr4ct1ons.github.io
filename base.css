@@ -132,7 +132,7 @@ a
     font-family: 'Montserrat-SemiBold';
     float: right;
     font-size: 200%;
-    color: red; 
+    color: yellow;
     text-decoration: none;
 }
 
@@ -141,7 +141,7 @@ a
     font-family: 'Montserrat-Regular';
     float: right;
     font-size: 200%;
-    color: rgb(255, 0, 255);
+    color: rgb(182, 34, 182);
     text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ a
     font-family: 'Montserrat-Regular';
     float: right;
     font-size: 200%;
-    color: rgb(255, 255, 0);
+    color: rgb(182, 34, 182);
     text-decoration: none;
 }
 
