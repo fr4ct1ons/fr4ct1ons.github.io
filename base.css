@@ -47,19 +47,19 @@
     }
 
     @font-face {
-        font-family: 'Arimo';
+        font-family: 'Arimo-I';
         src: url('fonts/Arimo-Italic.ttf');
         font-style: italic;
     }
 
     @font-face {
-        font-family: 'Arimo';
+        font-family: 'Arimo-B';
         src: url('fonts/Arimo-Bold.ttf');
         font-weight: bold;
     }
 
     @font-face {
-        font-family: 'Arimo';
+        font-family: 'Arimo-IB';
         src: url('fonts/Arimo-BoldItalic.ttf');
         font-style: italic;
         font-weight: bold;
@@ -115,6 +115,8 @@ p
 a
 {
     color: aqua;
+    font-family: 'Montserrat-ExtraLight';
+    /*text-decoration: underline;*/
 }
 
 .center
