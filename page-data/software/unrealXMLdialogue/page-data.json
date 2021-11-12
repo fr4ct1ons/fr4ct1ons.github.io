@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-page-template-js",
+    "path": "/software/unrealXMLdialogue",
+    "result": {"data":{"markdownRemark":{"html":"<p>This is still an ongoing personal project of mine, but I would really like to share the work-in-progress with this recording of an XML based dialogue system. I used Unreal's implementation of FastXML to create a dialogue system that could be easily expanded for my project, such as for triggering in-game events and changing characters' facial expressions. Below is a video of the system in action.</p>\n<iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/cLumpwhlSLo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n<p>If you'd like, here's a closeup.</p>\n<img src=\"https://i.imgur.com/EuhcVOg.png\" style=\"width: 50em\"/>","frontmatter":{"date":"October 08, 2021","slug":"/software/unrealXMLdialogue","title":"Unreal XML Dialogue System"}}},"pageContext":{"slug":"/software/unrealXMLdialogue","gallery":"software"}},
+    "staticQueryHashes": []}
