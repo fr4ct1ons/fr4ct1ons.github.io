@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgabriel_lucena_s_portfolio=self.webpackChunkgabriel_lucena_s_portfolio||[]).push([[647],{4927:function(e,t,n){n.r(t),n.d(t,{default:function(){return a}});var l=n(7294),r=n(3885);function a(e){let{data:{markdownRemark:t}}=e;const{frontmatter:n,html:a}=t;return l.createElement(r.Z,null,l.createElement("h1",null,n.title),l.createElement("div",{dangerouslySetInnerHTML:{__html:a}}))}}}]);
-//# sourceMappingURL=component---src-pages-markdown-remark-frontmatter-slug-js-1b02705ad6c51a9001d0.js.map
